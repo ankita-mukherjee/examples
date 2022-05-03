@@ -67,12 +67,12 @@ object VisualizationUtils {
     ): Bitmap {
         val paintCircle = Paint().apply {
             strokeWidth = CIRCLE_RADIUS
-            color = Color.RED
+            color = Color.BLUE
             style = Paint.Style.FILL
         }
         val paintLine = Paint().apply {
             strokeWidth = LINE_WIDTH
-            color = Color.RED
+            color = Color.BLUE
             style = Paint.Style.STROKE
         }
 
